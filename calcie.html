@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="https://toppng.com/uploads/preview/calculator-icon-free-11549842495a9qw21j9zx.png"
+        type="image/x-icon">
+    <style>
+        .num {
+            margin: auto;
+            max-width: 18vw;
+        }
+
+        .button {
+            padding: 10px;
+            height: 60px;
+            width: 60px;
+            margin-top: 08px;
+            border: 2px, solid black;
+            border-radius: 50%;
+            cursor: pointer;
+            background: black;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .button:hover {
+            background: grey;
+        }
+
+        .flex {
+            display: flex
+        }
+
+        .row {
+            margin: 5px;
+        }
+
+        .bbb {
+            text-align: center;
+        }
+
+        .calcie {
+            background: grey;
+            margin-left: 600px;
+            margin-right: 600px;
+            border-color: black;
+            border-radius: 10%;
+            margin-top: 100px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calcie">
+        <h1 style="text-align: center ;padding-top: 20px;font-size: 30px;">Calculator</h1>
+        <div class="row">
+            <div style="text-align: center;">
+                <input style="height: 40px;width:265px;text-align: right;font-size: 40px;" type="text" id="screen">
+            </div>
+        </div>
+        <div class=" flex  num">
+            <div class="row">
+                <button number class="button ">C</button>
+                <button class="button">7</button>
+                <button class="button">4</button>
+                <button class="button">1</button>
+                <button class="button">(</button>
+
+            </div>
+
+            <div class="row">
+                <button class="button"><--</button>
+                <button class="button">8</button>
+                <button class="button">5</button>
+                <button class="button">2</button>
+                <button class="button">)</button>
+            </div>
+
+            <div class="row">
+                <button class="button">/</button>
+                <button class="button">9</button>
+                <button class="button">6</button>
+                <button class="button">3</button>
+                <button class="button">0</button>
+            </div>
+
+            <div class="row">
+                <button class="button">*</button>
+                <button class="button">-</button>
+                <button class="button">+</button>
+                <button class="button">=</button>
+                <button class="button">.</button>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    <script src="./calcie.js"></script>
+</body>
+
+</html>
